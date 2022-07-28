@@ -1,1 +1,96 @@
 anotacion de avances
+----------------------------------------
+----------------------------------------
+29/07/2022
+Ramiro@Ramiro-PC MINGW64 /d/Desktop/prueba
+$ git init
+Initialized empty Git repository in D:/Desktop/prueba/.git/
+
+Ramiro@Ramiro-PC MINGW64 /d/Desktop/prueba (master)
+$ git status
+On branch master
+
+No commits yet
+
+Untracked files:
+  (use "git add <file>..." to include in what will be committed)
+        petra.txt
+
+nothing added to commit but untracked files present (use "git add" to track)
+
+Ramiro@Ramiro-PC MINGW64 /d/Desktop/prueba (master)
+$ git add .
+
+Ramiro@Ramiro-PC MINGW64 /d/Desktop/prueba (master)
+$ git commit -m "se agrega el proyecto"
+[master (root-commit) e189c53] se agrega el proyecto
+ 1 file changed, 1 insertion(+)
+ create mode 100644 petra.txt
+
+Ramiro@Ramiro-PC MINGW64 /d/Desktop/prueba (master)
+$ git config -- global user.email ramiro.flores131200@gmail.com
+error: key does not contain a section: global
+
+Ramiro@Ramiro-PC MINGW64 /d/Desktop/prueba (master)
+$ git config --global user.email ramiro.flores131200@gmail.com
+
+Ramiro@Ramiro-PC MINGW64 /d/Desktop/prueba (master)
+$ git config --global user.name ramironahuel20
+
+Ramiro@Ramiro-PC MINGW64 /d/Desktop/prueba (master)
+$ git config --global user.email ramiro.flores131200@gmail.com
+
+Ramiro@Ramiro-PC MINGW64 /d/Desktop/prueba (master)
+$ git commit -m "se agrega el proyecto"
+On branch master
+nothing to commit, working tree clean
+
+Ramiro@Ramiro-PC MINGW64 /d/Desktop/prueba (master)
+$ git branch -M main
+
+Ramiro@Ramiro-PC MINGW64 /d/Desktop/prueba (main)
+$ git remote add origin https://github.com/ramironahuel20/prueba.git
+
+Ramiro@Ramiro-PC MINGW64 /d/Desktop/prueba (main)
+$ git push -u origin main
+fatal: An error occurred while sending the request.
+fatal: Anulada la solicitud: No se puede crear un canal seguro SSL/TLS.
+remote: Support for password authentication was removed on August 13, 2021.
+remote: Please see https://docs.github.com/en/get-started/getting-started-with-git/about-remote-repositories#cloning-with-https-urls for information on currently recommended modes of authentication.
+fatal: Authentication failed for 'https://github.com/ramironahuel20/prueba.git/'
+
+Ramiro@Ramiro-PC MINGW64 /d/Desktop/prueba (main)
+$ git push -u origin main
+fatal: Se canceló una tarea.
+remote: Support for password authentication was removed on August 13, 2021.
+remote: Please see https://docs.github.com/en/get-started/getting-started-with-git/about-remote-repositories#cloning-with-https-urls for information on currently recommended modes of authentication.
+fatal: Authentication failed for 'https://github.com/ramironahuel20/prueba.git/'
+
+Ramiro@Ramiro-PC MINGW64 /d/Desktop/prueba (main)
+$ git push -u origin main
+fatal: Se canceló una tarea.
+remote: Support for password authentication was removed on August 13, 2021.
+remote: Please see https://docs.github.com/en/get-started/getting-started-with-git/about-remote-repositories#cloning-with-https-urls for information on currently recommended modes of authentication.
+fatal: Authentication failed for 'https://github.com/ramironahuel20/prueba.git/'
+
+Ramiro@Ramiro-PC MINGW64 /d/Desktop/prueba (main)
+$ git remote -v
+origin  https://github.com/ramironahuel20/prueba.git (fetch)
+origin  https://github.com/ramironahuel20/prueba.git (push)
+
+Ramiro@Ramiro-PC MINGW64 /d/Desktop/prueba (main)
+$ git remote add origin https://github.com/ramironahuel20/prueba.git
+error: remote origin already exists.
+
+Ramiro@Ramiro-PC MINGW64 /d/Desktop/prueba (main)
+$ git push -u origin main
+fatal: An error occurred while sending the request.
+fatal: Anulada la solicitud: No se puede crear un canal seguro SSL/TLS.
+Enumerating objects: 3, done.
+Counting objects: 100% (3/3), done.
+Writing objects: 100% (3/3), 252 bytes | 252.00 KiB/s, done.
+Total 3 (delta 0), reused 0 (delta 0), pack-reused 0
+To https://github.com/ramironahuel20/prueba.git
+ * [new branch]      main -> main
+branch 'main' set up to track 'origin/main'.
+
